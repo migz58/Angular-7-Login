@@ -1,0 +1,30 @@
+.center{
+    text-align: center;
+}
+.logo{
+    margin: auto;
+    width: 10%;
+    height: 10%;
+
+}
+.margin-top2{
+    margin: 2% auto 3% auto;
+}
+.margin-top7{
+    margin: 7% auto 3% auto;
+}
+.padding-sides{
+    padding: 0 20%;
+}
+.home-title{
+    margin: 7% auto 3% auto;
+}
+.login-title{
+
+}
+.reg-title{}
+.reg-sub-title{}
+.success-title{
+    text-decoration: underline;
+    color: green;
+}

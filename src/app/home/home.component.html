@@ -1,0 +1,9 @@
+﻿<h1 class="home-title">Hi {{currentUser.firstName}}!</h1>
+<p class="home-text">You're logged in with Angular 7!!</p>
+<h3 class="home-registered-title">All registered users:</h3>
+<ul>
+    <li *ngFor="let user of users">
+        {{user.username}} ({{user.firstName}} {{user.lastName}})
+        - <a (click)="deleteUser(user.id)" class="text-danger delete-registered-user">Delete</a>
+    </li>
+</ul>
